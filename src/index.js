@@ -7,6 +7,6 @@ const divRoot = document.querySelector('#root')
 
 // console.log(divRoot);
 ReactDOM.render(
-    <PrimeraApp/>, 
+    <PrimeraApp /*saludo="Hola Mundo"*/ />, 
     divRoot
 )
