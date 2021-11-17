@@ -13,9 +13,7 @@ const CounterApp = ({title="Counter App", value = 0}) =>{
         setCounter( counter + 1)
     }
 
-    const handleRes = (e) => {
-        setCounter( counter - 1)
-    }
+    const handleRes = (e) => setCounter( counter - 1);
 
     const handleReste = (e) => {
         setCounter( value)
