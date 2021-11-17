@@ -9,6 +9,6 @@ const divRoot = document.querySelector('#root')
 // console.log(divRoot);
 ReactDOM.render(
     // <PrimeraApp wave="Hello World"  />, 
-    <CounterApp value={43} />,
+    <CounterApp value={0} />,
     divRoot
 )
