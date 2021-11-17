@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PrimeraApp from './PrimeraApp';
+// import PrimeraApp from './PrimeraApp';
 import './index.css'
+import CounterApp from './CounterApp';
 
 const divRoot = document.querySelector('#root')
 
 // console.log(divRoot);
 ReactDOM.render(
-    <PrimeraApp /*saludo="Hola Mundo"*/ />, 
+    // <PrimeraApp wave="Hello World"  />, 
+    <CounterApp value={43} />,
     divRoot
 )
