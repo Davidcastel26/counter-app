@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 // hooks
 import { useState } from 'react';
 
-const CounterApp = ({title="Counter App", value = 0}) =>{
+const CounterApp = ({title="Counter App", value = 10}) =>{
 
-    const [ counter, setCounter ] = useState( 0 )
+    const [ counter, setCounter ] = useState( 10 )
     
 
     //buttons functions 
@@ -35,5 +35,6 @@ const CounterApp = ({title="Counter App", value = 0}) =>{
 export default CounterApp;
 
 CounterApp.propTypes = {
-    value: PropTypes.number.isRequired,
+    value: PropTypes.number
+    // .isRequired,
 }
